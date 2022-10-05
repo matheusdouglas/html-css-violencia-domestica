@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Não se Cale!</title>
+</head>
+
+<body>
+    
+    <div class="modal" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><strong>AVISO</strong> <i class="fa-solid fa-triangle-exclamation"></i></h5>
+                    <span aria-hidden="true" class="btn-x"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto universitário do curso de análise e desenvolvimento de sistemas. Em construção</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-secondary" data-dismiss="modal" id="fechar">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="Logo">#Não se Cale!
+                <a href="https://www.instagram.com/vidamulher_oficial/" target="__blank">
+                    <i class="fa-brands fa-instagram" id="instagram"></i>
+                </a>
+            </h1>
+            <ul id="navbar-items">
+                <li class="lista"><a href="#showcase">Inicio</a></li>
+                <li class="lista"><a href="#formulario-item">formulario</a></li>
+                <li class="lista"><a href="#gallery">Galeria</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="showcase">
+        <a href="https://wa.me/5561996565008?text=Ol%C3%A1%20preciso%20de%20ajudar">
+            <img src="img/whatsapp-logo-icone.png" alt="" id="whatsapp-logo">
+        </a>
+
+        <div id="showcase-container">
+        </div>
+    </header>
+
+    <section id="clients">
+        <div class="headline">Dados de violencia domestica</div>
+        <div class="clients-container">
+            <img src="img/imagem14.jpg" class="client" alt="">
+            <img src="img/Imagem12.jpg" class="client" alt="">
+            <img src="img/imagem13.jpg" class="client" alt="">
+            <img src="img/imagem 16.jpg" class="client" alt="">
+        </div>
+    </section>
+    <section id="features">
+        <div class="headline">O que pode ser feito contra violencia domestica</div>
+        <div id="features-container">
+            <div class="feature">
+                <span class="feature-title">Denúncias de abusos</span>
+                <p>A primeira coisa que alguém que sofreu qualquer tipo de violência doméstica tem a fazer, é denunciar
+                    quem a agrediu. Não levar ao conhecimento das autoridades competentes por medo ou vergonha, só vai
+                    incentivar ainda mais este tipo de violência. Por isso, sua empresa deve incentivar as vítimas a
+                    denunciarem, sempre</p>
+            </div>
+            <div class="feature">
+                <span class="feature-title">Impor o devido respeito</span>
+                <p>Em qualquer relacionamento, o abuso ou a falta de respeito pode levar à primeira agressão. E se isso
+                    não for eliminado, logo de cara, podem acontecer outras. Dessa forma, sua empresa deve orientar as
+                    vítimas a impor o devido respeito a seus parceiros ou familiares e não permitirem nenhum tipo de
+                    violência, por menor que ela seja. </p>
+            </div>
+            <div class="feature">
+                <span class="feature-title">Palestras educativas sobre o tema</span>
+                <p>Que tal promover no auditório da sua empresa, pelo menos duas vezes ao mês, palestras educativas e
+                    abertas para o público sobre o combate à violência doméstica? Muita gente ainda não sabe o que fazer
+                    em casos de agressão e, às vezes, sofrem caladas achando que isso é algo normal. O conhecimento pode
+                    ser o segredo do combate a esse problema. </p>
+            </div>
+        </div>
+    </section>
+    <section id="formulario">
+        <div class="headline"> Quiz de Perguntas </div>
+        <p id="titulo">Responda as seguintes pergunta abaixo para podermos ajudar você</p>
+        <div id="formulario-item">
+            <div id="items">
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="checkbox1">
+                    <label id="input">Atualmente você sofre violência doméstica?</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="checkbox2" value="checkbox1">
+                    <label id="input">Você tem medo de ficar sozinha com seu namorado, marido ou companheiro?</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="checkbox3">
+                    <label id="input">Quando você tenta se separar ele fica telefonando, faz escândalo ‘’na porta’’ da
+                        sua casa ou trabalho pedindo mais uma chance?</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="checkbox4">
+                    <label id="input">Ele diz que se você não for dele não será de mais ninguém?</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="checkbox5">
+                    <label id="input">Ele ameaça seus parentes e amigos?</label>
+                </div>
+                <div class="item">
+                    <button type="button" value="Responder" id="button" class="buttom">Responder</button>
+                </div>
+                <div class="items">
+                    <div id="mensagem"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div id="testimonials">
+        <div class="headline">Relatos</div>
+        <div id="testimonials-container">
+            <div id="testimonial">
+                <span></span>
+                <img src="img/5a856a148737467.Y3JvcCwxMTk0LDkzNCwxMDMsMA.jpg" alt="">
+                <p>“A gota d’água foi quando ele me pôs pra fora de casa de madrugada, sem nada, ameaçando me bater.
+                    Depois ele pegou meu celular e mandou mensagens para vários contatos como se fosse eu para me
+                    ridicularizar. E me manteve afastada do meu filho por um mês.”</p>
+            </div>
+            <div id="testimonial">
+                <img src="img/Dona de casa.png" alt="">
+                <p>"Quando eu disse a ele que não queria mais o casamento, ele gargalhou. Me chamou de fracassada, de
+                    derrotada. Eu me sentia um lixo e por muito tempo acreditei em tudo que ele falava ao meu respeito.
+                    Foram muitas piadas e provocações até eu conseguir superar tudo isso, até quando eu decidi ir na
+                    delegacia e pedi a medida protetiva", conta Veruska.</p>
+            </div>
+        </div>
+    </div>
+    <section id="gallery">
+        <div class="headline">Seja uma vencedora</div>
+        <div id="gallery-container">
+            <img src="img/imagem20.jpg" class="gallery-image" alt="">
+            <img src="img/imagem8.png" class="gallery-image" alt="">
+            <img src="img/ligue180.png" class="gallery-image" alt="">
+            <img src="img/imagem24.jpg" class="gallery-image" alt="">
+            <img src="img/imagem9.jpg" class="gallery-image" alt="">
+            <img src="img/recomecar.jpg" class="gallery-image" alt="">
+            <img src="img/imagem7.png" class="gallery-image" alt="">
+            <img src="img/imagem1.jpg" class="gallery-image" alt="">
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy;Copyright 2022 - Todos os direitos reservados.</p>
+        <p>Feito por Alunos da Uniceplac</p>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/9334a38ee7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
